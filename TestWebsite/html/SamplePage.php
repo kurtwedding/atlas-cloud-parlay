@@ -21,7 +21,7 @@
 
   if (strlen($employee_name) || strlen($employee_address)) {
     AddEmployee($connection, $employee_name, $employee_address);
-  } elseif(strlen($entry_id){
+  } elseif(strlen($entry_id)){
     RemoveEntry($connection, $entry_id);
   };
 
