@@ -1,7 +1,7 @@
 <?php include "../inc/dbinfo.inc"; ?>
 <html>
     <head>
-	<title>Client Page</title>
+	<title>Admin Page</title>
         <style>
             body{
                 font-family: Verdana, sans-serif;
