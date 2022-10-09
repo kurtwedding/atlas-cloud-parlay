@@ -6,6 +6,10 @@ This repository contains all files required to build the websites and databases 
 ## This repo's files
 This repo contains all of the files being hosted in the AWS cloud. They are all found in `./TestWebsite/`
 
+In `./TestWebsite/html/`, the clientPage is hosted on the client EC2 instance, and the serverPage is hosted on the server EC2 instance. 
+
+Both EC2 instances also contain their respective dbinfo.inc files stored in `./TestWebsite/inc/` 
+
 ## Deploying the cloud services.
 In order to host these services on the cloud, an AWS account was used to create 2 unique EC2 instances, one RDS instance, and one S3 bucket. The EC2 instances were used to host the websites, and the RDS instance was used to host the database. The S3 bucket is used to host a static, non-changing webpage in order to redirect to the two different webpages interfacing the database.
 
